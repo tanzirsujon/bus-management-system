@@ -1,0 +1,158 @@
+@media only screen and (max-width: 800px) {
+    main {
+        background-image: none;
+
+
+    }
+    body{
+    overflow-x: hidden;
+
+    }
+
+    .container {
+        height: 90vh;
+        flex-direction: column;
+
+    }
+
+    .sp {
+        display: none;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    nav {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        overflow: hidden;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .box1 {
+        display: none;
+    }
+
+    .box3 {
+        display: none;
+    }
+
+    .inp {
+        width: 350px;
+    }
+
+    .btn {
+        left: 18%;
+        top: 105%;
+        cursor: pointer;
+    }
+
+    .sp {
+        display: none;
+    }
+
+    .box2 {
+        margin-bottom: 184px;
+        margin-left: 158px;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+
+    ul li {
+        margin-bottom: 10px;
+    }
+
+    .r2 {
+        margin-left: 58px;
+        cursor: pointer;
+    }
+
+    .n-1 {
+        display: none;
+    }
+
+    .in-1 {
+        margin-right: 240px;
+    }
+
+    .inp input {
+        width: 80vw;
+    }
+
+    .in-2 {
+        margin-right: 240px;
+    }
+
+    .dat {
+
+        margin-right: 240px;
+
+    }
+
+
+
+    .down {
+        transform: translateY(-116px);
+    }
+
+    header {
+        z-index: -1;
+    
+        background-image: none;
+        transition: transform 0.3s ease-in;
+
+    }
+
+
+
+    .cr img {
+        visibility: visible;
+        cursor: pointer;
+
+    }
+
+    .img-1 {
+        position: absolute;
+        top: 3%;
+        left: 5%;
+    }
+
+    .img-2 {
+        position: absolute;
+        top: 8%;
+        left: 5%;
+    }
+
+    h2 {
+        margin-top: 35px;
+    }
+
+    footer {
+        height: 3vh;
+        margin-bottom: 10px;
+        overflow: hidden;
+        /* background-color: rgb(219, 216, 216); */
+
+    }
+
+    ul li:hover {
+        background-color: rgb(212, 212, 212) !important;
+        cursor: pointer;
+
+    }
+}

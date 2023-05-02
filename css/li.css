@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+ul li {
+    list-style: none;
+    padding: 0px 10px;
+    border-radius: 17px;
+    border: 1px solid #fde7e7;
+    margin: 0px 5px;
+    height: 35px;
+    width: 96px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #777;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+
+
+}
+
+ul li:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.middle {
+    background-image: url("https://gos3.ibcdn.com/newyearcenter-1639987073.png");
+    height: 64px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 179%;
+    /* background-image: url("/img/N-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    height: 64px;
+    width: 100%; */
+    overflow: hidden;
+
+
+
+}
+
+.logo {
+    margin-left: 50px;
+    margin-right: 22px;
+
+
+}
+
+.logo a img {
+    width: 143px;
+    height: 115px;
+    padding-bottom: 5px;
+    box-sizing: content-box;
+
+}
+
+.right {
+    margin-right: 60px;
+    width: 90vw;
+}
+
+.r1 {
+    position: relative;
+    width: 160px;
+}
+
+.r1:hover {
+    cursor: pointer;
+}
+
+.r1 img {
+
+    position: absolute;
+    width: 29px;
+    left: 50px;
+    bottom: 15px;
+}
+
+.s-1 {
+    font-family: 'Quicksand', sans-serif;
+
+    color: #666 !important;
+    font-size: 12px;
+
+}
+
+
+
+.s-2 {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.r2 {
+
+    border: 1px solid #2276e3;
+    height: 42px;
+    width: 155px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.r2:hover {
+    cursor: pointer;
+}
+
+.login {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #2276e3;
+    font-weight: 700;
+    word-break: break-all;
+    padding-left: 20px;
+}
+
+
+.im2 {
+    position: absolute;
+    width: 21px;
+    left: 14px;
+}
